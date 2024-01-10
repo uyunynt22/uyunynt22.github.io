@@ -1,18 +1,27 @@
-<!DOCTYPE html> <!-- menandakan dokumen adalah html5 -->
+<!DOCTYPE html> 
+<html>
+ <head>
+ </head>
+ <body>
+ </body>
+</html>
+
+
+<!DOCTYPE html> 
 <html>
   <head>
     <title>Desain resume dengan bootstrap</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- agar html/web tampil responsive -->
-    <link rel="stylesheet" href="aset/bootstrap-4.3.1-dist/css/bootstrap.min.css" type="text/css"/> <!-- menghubungkan dokumen html dengan file bootstrap.min.css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="aset/bootstrap-4.3.1-dist/css/bootstrap.min.css" type="text/css"/> 
 
   </head>
   <body>
 
 
-    <script src="aset/jquery/js/jquery.min.js"></script><!--menghubungkan dengan jquery -->
+    <script src="aset/jquery/js/jquery.min.js"></script>
     <script
-  src="aset/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script> <!--menghubungkan dengan bootstrap bundel js yang sudah berisi bootstrap js dan poper.js-->
+  src="aset/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script> 
   </body>
 </html>
 
@@ -20,34 +29,31 @@
 
 
 
-<link rel="stylesheet" href="aset/fontawesome/css/all.css" type="text/css"/> <!-- menghubungkan dokumen html dengan fontawesome -->
-
-
-
+<link rel="stylesheet" href="aset/fontawesome/css/all.css" type="text/css"/> 
 
 <header class="container-fluid bg-primary kepala">
       <div class="row">
-        <div class="col-md-2 text-center text-light border rounded m-2"> <!-- kolom pertama yang berisi logo dan tulisan -->
+        <div class="col-md-2 text-center text-light border rounded m-2"> 
           <p class="m-2 mt-4">
-            <i class="fas fa-file-alt fa-4x"></i> <!-- menggunakan fontawesome untuk menambah logo-->
+            <i class="fas fa-file-alt fa-4x"></i> 
           </p>
           <h1 class="lead mt-2">
             <b>Curriculum Vitae</b>
           </h1>
         </div>
 
-        <div class="col-md-9 text-white bg-primary"> <!-- kolom kedua berisi profil singkat -->
+        <div class="col-md-9 text-white bg-primary"> 
           <h2 class="text-uppercase text-center nama mt-2">
             Nama Anda
           </h2>
           <p class="lead text-center lahir">
             Jogja, 29 - April - 1995
           </p>
-          <p class="text-center petunjuk"> <!-- hanya tampil di resolusi maksimal 767.98px -->
+          <p class="text-center petunjuk">
             Selamat datang di Halaman Curriculum Vitae saya, jika resolusi layar Anda kecil silahkan menggunakan menu di bawah untuk tahu lebih lanjut.
  </p>
-          <p class="mt-2 text-center panah"> <!-- hanya tampil di resolusi maksimal 767.98px-->
-<i class="fas fa-arrow-down fa-2x "></i> <!-- icon fontawesome -->
+          <p class="mt-2 text-center panah"> 
+<i class="fas fa-arrow-down fa-2x "></i>
           </p>
         </div>
       </div>
@@ -72,14 +78,14 @@
 
 
 <style>
-      @media(min-width: 768px){/* untuk tampilan di atas resolusi 768px */
+      @media(min-width: 768px)
         .petunjuk,.panah{
           display:none;
         }
         .nama,.lahir{
           text-align:left !important;
         }
-        .ornamen{/*agar muncul kotak dengan tinggi 30px dan warna biru tua*/
+        .ornamen
           height: 30px;
           background-color:#2255ff;
         }
@@ -89,7 +95,7 @@
 
       }
 
-      @media(max-width:767.98px){/* untuk tampilan di bawah 767.98px atau tampilan mobile */
+      @media(max-width:767.98px)
 
         html, body{
           height:100%;
@@ -98,7 +104,7 @@
           height:100vh;
         }
         .menu{
-          overflow:auto; /*membuat menu bisa discroll */
+          overflow:auto; 
           white-space:nowrap;
         }
       }
@@ -202,10 +208,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 mb-4"><!-- membuat 1 kolom -->
-          <!-- untuk membuat card-deck -->
+        <div class="col-md-12 mb-4">
           <div class="card-deck m-1">
-            <div class="card border-primary mb-3"> <!-- membuat 1 card 1 kolom -->
+            <div class="card border-primary mb-3"> 
               <div class="card-header bg-primary">Tempat Kerja</div>
               <div class="card-body">
                 <h5 class="card-title">Posisi/Jabatan</h5>
@@ -213,7 +218,7 @@
                 <p class="card-text"><small class="text-muted">lama bekerja mis. 2010-2017</small></p>
               </div>
             </div> <!-- akhir class card -->
-            <div class="card border-primary mb-3"><!-- menambah card  berarti menambah kolom -->
+            <div class="card border-primary mb-3">
               <div class="card-header bg-primary">Tempat Kerja</div>
               <div class="card-body">
                 <h5 class="card-title">Posisi/Jabatan</h5>
@@ -230,10 +235,10 @@
 
 
 
-<div class="col-md-12 mb-4"><!-- membuat 1 kolom -->
+<div class="col-md-12 mb-4">
           <!-- untuk membuat card-deck -->
           <div class="card-deck m-1">
-            <div class="card border-primary mb-3"> <!-- membuat 1 card 1 kolom -->
+            <div class="card border-primary mb-3"> 
               <div class="card-header bg-primary">Tempat Kerja</div>
               <div class="card-body">
                 <h5 class="card-title">Posisi/Jabatan</h5>
@@ -241,7 +246,7 @@
                 <p class="card-text"><small class="text-muted">lama bekerja mis. 2010-2017</small></p>
               </div>
             </div> <!-- akhir class card -->
-            <div class="card border-primary mb-3"><!-- menambah card  berarti menambah kolom -->
+            <div class="card border-primary mb-3">
               <div class="card-header bg-primary">Tempat Kerja</div>
               <div class="card-body">
                 <h5 class="card-title">Posisi/Jabatan</h5>
